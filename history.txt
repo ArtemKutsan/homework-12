@@ -1,0 +1,17 @@
+  1  git clone git@github.com:ArtemKutsan/homework-12.git
+  2  cd homework-12/
+  3  ls
+  4  git checkout -b feature
+  5  cat README.md
+  6  date >> README.md
+  7  cat README.md
+  8  nano .gitignore
+  9  git status
+ 10  git add README.md .gitignore
+ 11  git status
+ 12  git commit -m "Update README and .gitignore"
+ 13  git commit --amend -m "Update README and .gitignore amend"
+ 14  git push origin feature
+ 15  git checkout main
+ 16  git merge feature
+ 17  history > history.txt
